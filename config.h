@@ -1,0 +1,32 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define WINDOW_W 1280
+#define WINDOW_H 720
+
+#define TARGET_FPS 60
+#define FRAME_TIME_MS 16
+
+#define INFO_ZONE_RATIO 0.16f
+#define PLAYFIELD_MARGIN_RATIO 0.02f
+
+#define MAX_PSEUDO_LEN 31
+#define MAX_MESSAGE_LEN 127
+#define MAX_HIGHSCORES 10
+#define MAX_OBSTACLES 6
+#define MAX_TYPED_CHARS 16
+
+#define SAVE_FILE "saves.txt"
+#define SCORE_FILE "highscores.txt"
+
+#define STAGE_COUNT 5
+#define BOSS_STAGE 5
+
+#define PLAYER_BASE_SPEED_RATIO 0.42f
+#define PROJECTILE_SPEED_RATIO 1.30f
+#define BONUS_FALL_SPEED_RATIO 0.18f
+#define LIGHTNING_SPEED_RATIO 0.68f
+#define GRAVITY_RATIO 0.78f
+#define BUBBLE_SPEED_FACTOR 0.6667f
+
+#endif
